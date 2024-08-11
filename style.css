@@ -1,0 +1,234 @@
+
+#header .fixed-top{
+  background-image: url('');
+  box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 /5);
+}
+.header{
+  width: 100%;
+  position: sticky;
+}
+.fig1{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.nav-item{
+  position: sticky;
+}
+.magnifying-glass{
+  background-color: #171716;
+}
+#header .navbar-nav .nav-item .nav-link{
+  color:black;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.off{
+  position: absolute;
+  top: 1px;
+  right:334px ;
+  height:1px;
+  width: 1px;
+  color: rgb(243, 186, 80);
+}
+#city{
+  height: 30px;
+  border-radius: 12px;
+  padding: auto;
+  color: rgb(119, 117, 113);
+}
+.search{
+  border-radius: 10px;
+  height: 40px;
+  padding: 3px;
+  padding-right: 4px;
+ 
+}
+.btn{
+  background-color: rgb(70, 65, 65);
+  color: white;
+}
+.btn:active{
+  background-color: white;
+  color: rgb(70, 65, 65);
+}
+.img-fluid{
+  width: 150px;
+}
+#header .navbar-nav .nav-item .nav-link:hover{
+  color:red;
+}
+#header .navbar-nav .nav-item .nav-link:active{
+  color:red;
+}
+#header .navbar-toggler:focus{
+  box-shadow:none;
+}
+.btn:hover{
+  transform: white;
+}
+/*HOME CSS*/
+.home .home-banner-1,
+.home .home-banner-2,
+.home .home-banner-3{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90% center;
+  min-height: 650px;
+  position: relative;
+}
+.black{
+  color:black;
+}
+.home .home-banner-1{
+  background-image:url('https://th.bing.com/th/id/R.1acddc43f65693a0329214fe08970605?rik=kQpzUaOK5iRlww&riu=http%3a%2f%2forig04.deviantart.net%2fbe6d%2ff%2f2017%2f158%2f9%2f0%2fnaruto_minimalist_by_hailstone294-dbbvu3m.jpg&ehk=73ko13ljwb9EACzsUFyFetTFQWPtyNsrf6p4P%2bSHias%3d&risl=&pid=ImgRaw&r=0');
+
+}
+.home .home-banner-2{
+  background-image:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c0dcaa87-1611-4c31-bdab-9534d848f932/df42nxz-e331903f-94b9-4b7c-9285-281e9a882d90.png/v1/fill/w_1192,h_670,q_70,strp/luffy_gear_5_sun_god_model_nika_by_onepiecelog01_df42nxz-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYzBkY2FhODctMTYxMS00YzMxLWJkYWItOTUzNGQ4NDhmOTMyXC9kZjQybnh6LWUzMzE5MDNmLTk0YjktNGI3Yy05Mjg1LTI4MWU5YTg4MmQ5MC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.EkATj0_OC0zCjdqLkaYzx0IYjsZYS_qw87h2oiZ1epk');
+}
+.home .home-banner-3{
+  background-image: url('https://wallpapercave.com/wp/wp6729894.jpg');
+  
+}
+.home .home-banner .home-banner-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-110%, -50%);
+}
+.home .home-banner .home-banner-text h1{
+  font-size: 6rem;
+}
+.home .carousel-indicators [data-bs-target]{
+  background-color:red;
+  width: 2.5rem;
+  height: 0.313rem;
+}
+.home .carousel-control-next-icon,
+.home .carousel-control-prev-icon, 
+.home .carousel-control-next-icon{
+  background-color:transparent;
+}
+.home .slider-icon{
+  font-size:3rem;
+  font-weight:600;
+  color:red;
+}
+.offer{
+  padding-top: 170px;
+  background-color:black;
+}
+.offer .img-fluid{
+  width:100%;
+  height:100%;
+  padding-top:29px;
+  opacity:5;
+}
+.offer .img-fluid:hover{
+  opacity:0.6;
+}
+.offer-inner{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  text-align: center;
+}
+.top{
+  font-style: italic;
+  color: rgb(243, 234, 234);
+  padding: 30px;
+  margin-top: 9px;
+  text-align: center;
+  background-color: rgb(1, 1, 1);
+}
+.fig1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2px;
+  padding: 30px;
+  background-color: #f2f6f6;
+}
+
+.hello{
+  height: 220px;
+  width: 400px;
+}
+.hello:hover{
+  opacity:0.4;
+}
+.foods{
+  width:400px;
+  height: 170px;
+  overflow: hidden;
+  background-color:#171716;
+  color: whitesmoke;
+  text-align: center;
+}
+.foods button{
+  padding: 4px;
+  background-color: rgb(236, 11, 11);
+  color: #eeeeea;
+}
+.foods button:hover{
+  background-color: #ecece1;
+  color: rgb(233, 15, 15);
+}
+.foods button:active{
+  background-color: red;
+  color: white;
+}
+.apps{
+  padding-top: 30px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: black;
+  color: white;
+}
+.logo{
+  width: 430px;
+  height: 130px;
+}
+.better{
+  padding-left: 39px;
+}
+.google{
+  margin-left: 50px;
+}
+.footer{
+  display: grid;
+  height: 500px;
+  grid-template-columns: auto auto auto auto;
+  text-align: justify;
+  justify-content: space-around;
+  padding: 70px;
+  background-color: #71716e;
+  color: white;
+}
+li{
+  text-decoration: none;
+}
+.insta{
+  padding: 5px;
+}
+.insta1{
+  width: 250px;
+  height: 800px;
+}
+.logs{
+  margin: 70px;
+}
+.uchiha{
+  height: 440px;
+  padding-bottom: 30px;
+}
+.rules{
+  text-align: center;
+  background-color: #171716;
+  color: #71716e;
+  height: 30px;
+  margin: 10px;
+}
+
+

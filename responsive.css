@@ -1,0 +1,9 @@
+@media only screen and (max-width: 455px) {
+  .fig1{
+    display: flex;
+  }
+  .zampa{
+    width: 344px;
+    height: 344px;
+  }
+}
